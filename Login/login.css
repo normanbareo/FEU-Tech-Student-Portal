@@ -1666,7 +1666,7 @@ margin-right: 10px;
         display: block;
         padding: 0px;
         margin: 0;
-        width: 191%;
+        width: 190.85%;
        
     }
 
@@ -1894,6 +1894,254 @@ ul{
 
 /* PORTRAIT iPad Pro 11" (2021) */
 @media (max-height: 1195px) and (orientation: portrait){
+    
+    .landscape{
+        display: none;
+    }
+    body, html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: url('https://lh3.googleusercontent.com/d/16IBjA6U130QVwK9S91dk0veY-655Q0Bg') repeat-y center center fixed;
+        background-size: 280%;
+        background-position: left 0px top 55px;
+    }
+
+
+    .portrait{
+        display: block;
+        padding: 0px;
+        margin: 0;
+        width: 150.2%;
+       
+    }
+
+    .right-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            width: 100%;
+    }
+
+    main{
+        flex: 1;
+        margin-bottom: 200px;
+    }
+
+    .login-container {
+        padding: 20px;
+        width: 180%;
+        max-width: 550px;
+        height: auto;
+        background-color: #f4f4f4;
+       
+        border-radius: 15px;
+        
+       
+        
+  
+    }
+
+    .FEU-logo{
+        margin-top: 50px;
+        width: 60%;
+    }
+
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .input-studentnumber, .input-password{
+        text-align: left;
+        margin-left: 65px;
+    }
+
+    .forgot a {
+        margin-left: 65px;
+    }
+
+    button{
+        margin-bottom: 80px;
+    }
+
+    footer {
+        padding: 15px;
+        text-align: center;
+        background-color: #f8f9fa;
+        position: relative;
+        left: 0; 
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        border-top: 0px dotted #b6b6b6;
+       
+    }
+
+    .left a{
+        color: #b6b6b6;
+        font-size: 11px;
+        margin: 30px;
+    }
+
+
+    .social-media-links a {
+        color:  #f4f4f4;
+      
+    }
+
+    .X, .Facebook{
+        width: 25px;
+        margin-right: 15px;
+    }
+
+    .YouTube{
+        width: 25px;
+        margin-right: 15px;
+    }
+
+    .social-media-links a img:hover {
+        filter: brightness(0) saturate(100%) invert(60%) sepia(9%) saturate(271%) hue-rotate(333deg) brightness(91%) contrast(104%);
+    }
+
+    .left a:hover, .right a:hover{
+        color: #988989;
+    }
+
+    
+.header{
+    background-color: #004b1c;
+    padding-top: 10px;
+    padding-right: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    z-index: var(50);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dropdown-icon img{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+
+
+}
+
+.dropdown-icon img:hover{
+    filter: brightness(0) saturate(100%) invert(75%) sepia(66%) saturate(1429%) hue-rotate(352deg) brightness(102%) contrast(104%);
+    width: 30px;
+    height: auto;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.85);
+    /* background: url('https://lh3.googleusercontent.com/d/16IBjA6U130QVwK9S91dk0veY-655Q0Bg') repeat-y center center fixed; */
+    background-size: 180%;
+    background-position: left 150px top 0px;
+    width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+    .show {
+    display: block;
+}
+
+
+    
+    .left-content{
+    margin-left: 1.1rem;
+    margin-top: 0px;
+    }   
+    
+    .main-title{
+    font-size: 1.45rem;
+    margin-top: 20px;
+   
+    }
+    
+    .sub-title{
+    font-size: 0.9rem;
+    margin-bottom: 1.8rem;
+    }
+    
+    .left-bullet-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    }
+    
+    .left-bullet-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    
+    }
+    
+    .left-bullet-row img {
+    
+    width: 1.6rem;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    }
+    
+    .left-bullet-row span {
+    flex: 1;
+    font-size: 0.8rem;
+    }
+
+}
+
+/* PORTRAIT iPad Air (2023) */
+@media (max-height: 1181px) and (orientation: portrait){
     
     .landscape{
         display: none;
@@ -3796,7 +4044,7 @@ ul{
 
 
     .FEU-logo{
-        margin-top: 115px;
+        margin-top: 110px;
         width: 75%;
     }
 
@@ -4076,7 +4324,7 @@ ul{
 
 
     .FEU-logo{
-        margin-top: 155px;
+        margin-top: 150px;
         width: 75%;
     }
 
